@@ -6,11 +6,11 @@ require (
 	github.com/go-sql-driver/mysql v1.6.0
 	github.com/mattn/go-sqlite3 v1.14.14
 	gopkg.in/ini.v1 v1.66.6
-	maunium.net/go/mautrix v0.9.29
+	maunium.net/go/mautrix v0.11.0
 )
 
 require (
 	github.com/btcsuite/btcutil v1.0.2 // indirect
-	golang.org/x/crypto v0.0.0-20210220033148-5ea612d1eb83 // indirect
-	golang.org/x/net v0.0.0-20210220033124-5f55cee0dc0d // indirect
+	golang.org/x/crypto v0.0.0-20220513210258-46612604a0f9 // indirect
+	golang.org/x/net v0.0.0-20220513224357-95641704303c // indirect
 )
