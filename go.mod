@@ -5,7 +5,7 @@ go 1.17
 require (
 	github.com/go-sql-driver/mysql v1.6.0
 	github.com/mattn/go-sqlite3 v1.14.14
-	gopkg.in/ini.v1 v1.63.2
+	gopkg.in/ini.v1 v1.66.6
 	maunium.net/go/mautrix v0.9.29
 )
 
