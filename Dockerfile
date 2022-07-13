@@ -1,7 +1,6 @@
 FROM golang:1.18-alpine AS builder
 
 WORKDIR /src
-RUN apk --no-cache add gcc musl-dev
 ADD cmd/gonalmatrix /src
 ADD go.mod /src
 RUN go get -d -v -t
