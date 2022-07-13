@@ -17,5 +17,8 @@ jobs:
         with:
           go-version-file: 'go.mod'
 
-      - name: Build gonalmatrix
+      - name: Build Linux
         run: CGO_ENABLED=0 GOOS=linux GOARCH=amd64 go build -ldflags="-w -s" -o gonalmatrix ./cmd/gonalmatrix
+
+      - name: Build FreeBSD
+        run: CGO_ENABLED=0 GOOS=freebsd GOARCH=amd64 go build -ldflags="-w -s" -o gonalmatrix ./cmd/gonalmatrix
