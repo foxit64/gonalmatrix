@@ -1,6 +1,6 @@
 module github.com/bsdforen/gonalmatrix
 
-go 1.19
+go 1.23
 
 require (
 	github.com/go-sql-driver/mysql v1.6.0
@@ -10,7 +10,6 @@ require (
 )
 
 require (
-	github.com/btcsuite/btcutil v1.0.2 // indirect
 	github.com/tidwall/gjson v1.14.1 // indirect
 	github.com/tidwall/match v1.1.1 // indirect
 	github.com/tidwall/pretty v1.2.0 // indirect
