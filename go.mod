@@ -5,7 +5,7 @@ go 1.23
 require (
 	github.com/go-sql-driver/mysql v1.6.0
 	github.com/mattn/go-sqlite3 v1.14.15
-	gopkg.in/ini.v1 v1.67.0
+	gopkg.in/ini.v1 v1.67.3
 	maunium.net/go/mautrix v0.12.0
 )
 
